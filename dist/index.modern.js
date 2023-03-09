@@ -280,6 +280,16 @@ const $090815f5086f7f29$export$a62758b764e9e41d = ({ renderComponent: renderComp
             }),
             shouldRenderSuggestions && options.length > 0 && /*#__PURE__*/ (0, $4MPRY$jsx)("ul", {
                 style: {
+                    backgroundClip: "padding-box",
+                    backgroundColor: "#fff",
+                    border: "1px solid rgba(0, 0, 0, 0.15)",
+                    boxShadow: "0 6px 12px rgba(0, 0, 0, 0.175)",
+                    display: "block",
+                    fontSize: "14px",
+                    listStyle: "none",
+                    padding: "1px",
+                    textAlign: "left",
+                    zIndex: 20000,
                     left: `${left + offsetX}px`,
                     top: `${top + offsetY}px`,
                     position: "absolute",

@@ -272,6 +272,16 @@ export const IndicTransliterate = ({
       {shouldRenderSuggestions && options.length > 0 && (
         <ul
           style={{
+            backgroundClip : "padding-box",
+            backgroundColor : "#fff",
+            border : "1px solid rgba(0, 0, 0, 0.15)",
+            boxShadow : "0 6px 12px rgba(0, 0, 0, 0.175)",
+            display: "block",
+            fontSize: "14px",
+            listStyle: "none",
+            padding: "1px",
+            textAlign: "left",
+            zIndex: 20000,
             left: `${left + offsetX}px`,
             top: `${top + offsetY}px`,
             position: "absolute",
