@@ -6,7 +6,7 @@
     "outDir": "dist",
     "module": "esnext",
     "lib": [
-      "dom",
+      "DOM", "ES6", "DOM.Iterable", "ScriptHost", "ES2016.Array.Include",
       "esnext"
     ],
     "moduleResolution": "node",
@@ -23,7 +23,7 @@
     "noUnusedParameters": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
-    "target": "es5",
+    "target": "es6",
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,

@@ -51,12 +51,12 @@ function $177050d4431d3d97$export$97ab23b40042f8af(elem, caretPos) {
 
 var $93be6bd4090454f8$exports = {};
 
-$parcel$export($93be6bd4090454f8$exports, "ReactTransliterate", () => $93be6bd4090454f8$export$b7fa6c785ac95e64, (v) => $93be6bd4090454f8$export$b7fa6c785ac95e64 = v);
 $parcel$export($93be6bd4090454f8$exports, "Active", () => $93be6bd4090454f8$export$c3c7cbf43a3f0561, (v) => $93be6bd4090454f8$export$c3c7cbf43a3f0561 = v);
-var $93be6bd4090454f8$export$b7fa6c785ac95e64;
+$parcel$export($93be6bd4090454f8$exports, "ReactTransliterate", () => $93be6bd4090454f8$export$b7fa6c785ac95e64, (v) => $93be6bd4090454f8$export$b7fa6c785ac95e64 = v);
 var $93be6bd4090454f8$export$c3c7cbf43a3f0561;
-$93be6bd4090454f8$export$b7fa6c785ac95e64 = `vNSxFa_ReactTransliterate`;
+var $93be6bd4090454f8$export$b7fa6c785ac95e64;
 $93be6bd4090454f8$export$c3c7cbf43a3f0561 = `vNSxFa_Active`;
+$93be6bd4090454f8$export$b7fa6c785ac95e64 = `vNSxFa_ReactTransliterate`;
 
 
 const $255051dee2ac5888$export$24b0ea3375909d37 = {
@@ -86,9 +86,9 @@ const $608cec5a9c1fc3e0$export$f2288726d3d6940 = async (word, customApiURL, tran
         headers: reqHeader
     });
     const response = await res.json();
-    if (response && response.output[0].target && response.output[0].target.length > 0) {
+    if (response && response?.output[0]?.target && response?.output[0]?.target?.length > 0) {
         let found = [
-            ...response.output[0].target,
+            ...response?.output[0]?.target,
             word
         ];
         return found;
