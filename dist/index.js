@@ -86,9 +86,9 @@ const $608cec5a9c1fc3e0$export$f2288726d3d6940 = async (word, customApiURL, tran
         headers: reqHeader
     });
     const response = await res.json();
-    if (response && response?.output[0]?.target && response?.output[0]?.target?.length > 0) {
+    if (response && response.output[0].target && response.output[0].target.length > 0) {
         let found = [
-            ...response?.output[0]?.target,
+            ...response.output[0].target,
             word
         ];
         return found;
